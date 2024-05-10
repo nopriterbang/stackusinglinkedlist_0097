@@ -53,11 +53,16 @@ public:
 				current = current->next;
 			}
 			cout << endl;
-		}
+		}// return the value of the top node
 	}
 
+	// isempty operation: check if stack is empty
 	bool isEmpty() {
 		return top == NULL;
 	}
 
 };
+
+int main() {
+
+}
